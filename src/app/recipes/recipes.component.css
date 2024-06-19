@@ -1,0 +1,87 @@
+.img{
+    margin-left: 50%;
+    width: 35%;
+    top: -147px;
+    position: relative;
+    height: 400px;
+}
+h2{
+    width: 331.908px;
+    position: relative;
+    left: -45px;
+    top: 150px;
+    margin-left: 18%;
+    color: white;
+    text-align: center;
+}
+.description{
+    width: 554.614px;
+    position: relative;
+    left: 700px;
+    top: -105px;
+    color: white;
+}
+.INGREDIENTS{
+    width: 28%;
+    position: relative;
+    left: 15px;
+    top: -198px;
+    margin-left: 15%;
+    color: blue;
+   }
+   .PREPARATION{
+    width: 383.261px;
+    position: relative;
+    left: 692px;
+    top: -228px;
+    height: 418.318px;
+    color: white;
+   }
+   h1{
+    color: blue;
+    margin: 2% 0px 0px 24%;
+   }
+   @media (max-width:1080px) {
+    .img{
+        margin-left: 2%;
+        width: 98%;
+        top: 10rem;
+        position: absolute;
+        height: 400px;
+    }
+    .howareyou{
+        margin-top: 70%;
+    }
+    h2{
+        width: 331.908px;
+        position: relative;
+        left: -45px;
+        top: 40rem;
+        margin-left:20%;
+        color: white;
+        text-align: center;
+    }
+    .INGREDIENTS{
+        width: 35%;
+        position: relative;
+        left: 15px;
+        top: 42rem;
+        margin-left: 5%;
+        color: blue;
+       }
+       .PREPARATION{
+              width: 383.261px;
+        position: unset;
+        margin-left: 5%;
+        margin-bottom: 40%;
+        margin-top: 160%;
+        color: white;
+       }
+       .description{
+        width: 554.614px;
+        position: relative;
+        left: 5%;
+        top:24rem;
+        color: white;
+       }
+   }

@@ -1,0 +1,40 @@
+
+.head{
+    width: 90%;
+    height: 50%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+.img{
+    height: 400px;
+    width: 330px;
+}
+@media (max-width:1080px) {
+    .head{
+        margin-left: 0%;
+
+        display: grid;
+        grid-template-columns: 15% 15% ;
+        grid-column-gap:45% ;
+        margin-bottom: 1%;
+    }
+    .img{
+        height: 315px;
+        width: unset;
+    }
+    h4{
+        width: 11%;
+    }
+    
+}

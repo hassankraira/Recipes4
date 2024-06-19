@@ -1,0 +1,54 @@
+.head{
+    margin-left: 20%;
+}
+.hea{
+margin-left: 23%;
+color: blue;
+}
+.aaa{
+    color: rgb(255, 255, 255);
+    display:inline;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-align:left;
+    text-transform:uppercase;
+    margin-left: 20px;
+}
+.an{
+    margin-left: 5%;
+    width: 60%;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+text-align:left;
+}
+.para{
+    margin-left: 15%;
+    font-size: 120%;
+   color: white;
+    width: 40%;
+}
+.para > h3{
+    color: blue;
+}
+@media (max-width:1080px) {
+    .hea{
+        margin-left: 5%;
+    }
+    .an{
+        margin-left: -25%;
+        width: 120%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: left;
+    }
+    .para{
+        margin-left: -12%;
+        font-size: 120%;
+        color: white;
+        width: 100%;
+    }
+    
+}

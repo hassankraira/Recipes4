@@ -1,0 +1,11 @@
+<h1 style="   color:blue; margin-left: 10%;margin-top: 3%;">EBooks</h1>
+<div class="head">
+    <div  *ngFor="let b of ebooks">
+        <a href={{b.bookUrl}}>
+<img class="img"  src={{b.bookImage}} alt="">
+</a>
+<br><br>
+<h4><a href={{b.bookUrl}}>{{b.bookName}}</a></h4>
+<br><br>
+</div>
+</div>

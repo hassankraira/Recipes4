@@ -1,0 +1,56 @@
+<br><br>
+<div class="save">
+<div class="first">
+    <br><br><br>
+    <h6>RECIPE OF THE DAY </h6>
+    <h2 style="color: blue;">Big, Juicy Hamburgers</h2>
+    <h4>This recipe is too easy than its look <br> lets make It togother </h4>
+    <a (click)="showRecipeOfTheDay()" routerLink="/Recipes"  class="btn btn-default  submet aa"  #H > Show the recipe</a>    
+    <br><br><br>    
+</div>
+<img class="immg" src="./assets/imges/hamburgers.png" alt="">
+</div>
+<div >
+    <div class="asdf"style="position: absolute;">
+        <h4>
+            Easy Weeknight Dinners
+        </h4>
+        <br>
+        <h6>
+            Make these recipes when you need a fast, flavorful meal.
+        </h6>
+    </div>
+
+<img class="immmg" src="assets\imges\dish.png" alt="">
+</div>
+
+<div class="head">
+    <div class="grid-container-buttons">
+        <button (click)="foodtype(b,bf,d,c,ed)" value="b"  class=" btn-default bttn  slected"  #b > Brunch</button>        
+        <button (click)="foodtype(bf,b,d,c,ed)" value="bf" class=" btn-default bttn  "  #bf > Breakfast</button>        
+        <button (click)="foodtype(d,bf,b,c,ed)"  class=" btn-default bttn  " value="d"  #d > Dinner </button>        
+        <button (click)="foodtype(c,d,bf,b,ed)"  class=" btn-default bttn  " value="c" #c > Chocolate</button>        
+        <button (click)="foodtype(ed,b,c,bf,d)"  class=" btn-default bttn  " value="ed"  #ed > Easy Desserts</button>        
+       
+</div>
+<div class="grid-container ">
+<div *ngFor="let f of  foodtypeArray"  class="borer content ">
+      <img class="img" [src]="f.foodImageUrl" >
+            <div class="hed">
+               <h6>
+                {{f.foodName}}
+                <br>
+                 <p>
+                {{f.defeculty}} 
+                </p>
+                </h6>
+</div>
+<a (click)="showRecipe(f)" [routerLink]="'/Recipes'" id={{f.foodName}}  class="btn btn-default submet aa" style="width: 100%;transform: translate(-26.5455px, 0px);height: 38.7159px;"> Show the recipe</a>
+</div>
+</div>
+
+</div>
+
+<br><br><br><br><br>
+
+
